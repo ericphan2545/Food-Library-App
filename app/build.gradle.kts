@@ -3,21 +3,12 @@ plugins {
 }
 
 android {
-<<<<<<< HEAD
-    namespace = "com.midterm.foodlib"
-    compileSdk = 36
-
-    defaultConfig {
-        applicationId = "com.midterm.foodlib"
-        minSdk = 21
-=======
     namespace = "com.finalterm.foodlibraryapp"
     compileSdk = 36
 
     defaultConfig {
         applicationId = "com.finalterm.foodlibraryapp"
         minSdk = 29
->>>>>>> c2d9576345dfb6b6ba00a79d8773b6da849960b4
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"

@@ -1,10 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-<<<<<<< HEAD
-    <style name="Base.Theme.Foodlib" parent="Theme.Material3.DayNight.NoActionBar">
-=======
     <style name="Base.Theme.FoodLibraryApp" parent="Theme.Material3.DayNight.NoActionBar">
->>>>>>> c2d9576345dfb6b6ba00a79d8773b6da849960b4
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>

@@ -10,11 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
-        android:theme="@style/Theme.Foodlib">
-=======
         android:theme="@style/Theme.FoodLibraryApp">
->>>>>>> c2d9576345dfb6b6ba00a79d8773b6da849960b4
         <activity
             android:name=".ui.MainActivity"
             android:exported="true">
@@ -24,16 +20,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity
-            android:name=".ui.DetailActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".ui.RecipeActivity"
-            android:exported="true" />
-=======
->>>>>>> c2d9576345dfb6b6ba00a79d8773b6da849960b4
     </application>
 
 </manifest>

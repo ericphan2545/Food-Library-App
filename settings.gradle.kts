@@ -19,11 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-<<<<<<< HEAD
-rootProject.name = "foodlib"
-include(":app")
- 
-=======
 rootProject.name = "Food Library App"
 include(":app")
->>>>>>> c2d9576345dfb6b6ba00a79d8773b6da849960b4

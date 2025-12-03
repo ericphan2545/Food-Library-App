@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
+    <string name="app_name">foodlib</string>
+=======
     <string name="app_name">Food Library App</string>
+>>>>>>> c2d9576345dfb6b6ba00a79d8773b6da849960b4
 </resources>

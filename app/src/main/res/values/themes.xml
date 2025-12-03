@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
+    <style name="Base.Theme.Foodlib" parent="Theme.Material3.DayNight.NoActionBar">
+=======
     <style name="Base.Theme.FoodLibraryApp" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> c2d9576345dfb6b6ba00a79d8773b6da849960b4
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+<<<<<<< HEAD
+    <style name="Theme.Foodlib" parent="Base.Theme.Foodlib" />
+=======
     <style name="Theme.FoodLibraryApp" parent="Base.Theme.FoodLibraryApp" />
+>>>>>>> c2d9576345dfb6b6ba00a79d8773b6da849960b4
 </resources>

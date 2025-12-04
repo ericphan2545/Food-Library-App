@@ -2,7 +2,9 @@ package com.finalterm.foodlibraryapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,6 +28,13 @@ public class DetailActivity extends AppCompatActivity {
         TextView tvCalories = findViewById(R.id.tvDetailKcal);
         ImageView imgDetail = findViewById(R.id.imgDetail);
         Button btnViewRecipe = findViewById(R.id.btnViewRecipe);
+        ImageButton btnBack = findViewById(R.id.btnBack);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish(); // Lệnh này sẽ đóng Activity hiện tại và quay về trang trước
+            }
+        });
 
         // Hiển thị dữ liệu
         if (food != null) {

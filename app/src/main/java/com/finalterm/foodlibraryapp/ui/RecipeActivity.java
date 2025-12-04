@@ -1,6 +1,8 @@
 package com.finalterm.foodlibraryapp.ui;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,6 +21,14 @@ public class RecipeActivity extends AppCompatActivity {
         TextView tvIngredients = findViewById(R.id.tvIngredientsList);
         TextView tvSteps = findViewById(R.id.tvStepsList);
         TextView tvTitle = findViewById(R.id.tvRecipeTitle);
+        ImageButton btnBack = findViewById(R.id.btnBackRecipe);
+
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish(); // Đóng trang công thức để quay về trang chi tiết món ăn
+            }
+        });
 
         if (food != null) {
             tvTitle.setText(food.getName());
